@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+  --red: #DA2535;
+  --gray: #616161;
+  --white: #FBFBFB;
+  --black: #292929;
+  --white-200: #F3F3F3;
+
+  --inter:'Inter', sans-serif;
+  --Montserrat:'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    width: 100vw;
+    height: 200vh;
+    overflow-x: hidden;
+    background-color: var(--white);
+}
+
+ /*Header*/
+.conteiner_header{
+    height: 69px;
+    background-color: var(--white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+header{
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav ul li{
+    display: inline;
+    padding-right: 60px;
+}
+nav ul li a{
+   text-decoration: none;
+   font-family: var(--inter);
+   font-weight: 500;
+   font-size: 16px;
+   color: var(--black);
+}
+header a #btn_header{
+    font-family: var(--inter);
+    font-weight: 600;
+    font-size: 20px;    
+    width: 188px;
+    height: 49px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    cursor: pointer;
+}
+header a #btn_header:hover{
+    background-color: var(--red);
+    transition: .9s;
+    border: none;
+}
+
+/*main*/
+main{
+    max-width: 1100px;
+    height: 200vh;
+    width: 90%;
+    margin: auto;
+    border: 1px solid red;
+}
+
+/*section comida_oriental*/
+.conteudo_comida_oriental{
+    max-width: 1100px;
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    border: 1px solid red;
+}
+.textos h1{
+    font-family: var(--Montserrat);
+    font-weight: 600;
+    font-size: 44px;
+}
+.textos p{
+    max-width: 520px;
+    height: 114px;
+    font-family: var(--Inter);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    color: #292929;
+    text-align: justify;
+    margin-top: 4%;
+}
+.button_cardapio{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+#button_cardapio_estilo{
+    color:var(--white);
+    background-color: var(--red);
+    width: 292px;
+    height: 60px;
+    border-radius:10px;
+    border: none;
+    font-family: var(--inter);
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+}
+#button_cardapio_estilo:hover{
+   background-color: #a50b17;
+   transition: .9s;
+}
+.img_sushi{
+    max-width: 400px ;
+    height: 434px;
+}
+.img_sushi > img{
+    width: 100%;
+    height: 100%;
+}
+/*section modo_preparo*/
+
+
+.conteiner_modo_preparo{
+    max-width: 1100px;
+    width: 90%;
+    height: 420px;
+    border: 1px solid red;
+
+    position: absolute;
+    top: 700px;
+} 
+.conteudo_modo_preparo{
+    display: flex;
+}
+.img_prato{
+    max-width:504px ;
+    height:100%;
+    border: 1px solid red;
+}
+.img_prato > img{
+    width: 100%;
+    
+    max-width: 500px;
+}
+.texto_modo_preparo{
+    margin: auto;
+}
+.texto_modo_preparo > h1{
+    border: 1px solid red;
+    font-family:var(--Montserrat) ;
+    font-weight: 600;
+    font-size: 44px;
+    max-width: 500px;
+    color: #292929;
+
+}
+.texto_modo_preparo > p{
+    border: 1px solid red;
+    max-width: 500px;
+    height: 114px;
+    font-family:var(--inter) ;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #292929;
+}
+.texto_modo_preparo  span a{
+    font-family:var(--inter) ;
+    font-weight: 500;
+    font-size: 24px;
+    display: inline-block;
+    margin-top: 20px;
+    color: #DA2535;
+    text-decoration: underline;
+}
