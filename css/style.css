@@ -192,3 +192,12 @@ main{
     color: #DA2535;
     text-decoration: underline;
 }
+
+/* Mais populares */
+
+.maisPopulares {
+    max-width: 500px;
+    width: 90%;
+    height: 114px;
+    border: blue 1px solid;
+}
